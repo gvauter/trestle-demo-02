@@ -1,0 +1,70 @@
+{
+  "component-definition": {
+    "uuid": "e7eb73c3-bae2-47fd-aff3-c58989589c7d",
+    "metadata": {
+      "title": "Hello World PVP Component Definition",
+      "last-modified": "2023-05-04T00:37:27.861377+00:00",
+      "version": "1.0.0",
+      "oscal-version": "1.0.4"
+    },
+    "components": [
+      {
+        "uuid": "c2086350-40b6-46dd-9744-3092f5857840",
+        "type": "validation",
+        "title": "Hello World PVP",
+        "description": "Hello World Application",
+        "props": [
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_001",
+            "remarks": "rule_set_0"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure all of the services are running this test",
+            "remarks": "rule_set_0"
+          },
+          {
+            "name": "Check_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test_check_001",
+            "remarks": "rule_set_0"
+          },
+          {
+            "name": "Check_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "This checks that the service is configured to run test",
+            "remarks": "rule_set_0"
+          }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "c0a28db1-4ed0-4e26-b757-aa4183bd7911",
+            "source": "profiles/ACME_internal_profile/profile.json",
+            "description": "This is a partial implementation of the ACME Internal profile",
+            "implemented-requirements": [
+              {
+                "uuid": "8e969b18-50fb-45d9-ba4b-980021ae1585",
+                "control-id": "pr-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_001"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

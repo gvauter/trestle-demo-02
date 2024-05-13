@@ -1,0 +1,58 @@
+{
+  "component-definition": {
+    "uuid": "639a1811-f324-4e04-a388-cd31141bfe2b",
+    "metadata": {
+      "title": "Hello World SSO Component Definition",
+      "last-modified": "2023-05-04T00:37:28.478377+00:00",
+      "version": "1.0.0",
+      "oscal-version": "1.0.4"
+    },
+    "components": [
+      {
+        "uuid": "54bd64cd-32d5-4680-86dc-1822540b7872",
+        "type": "service",
+        "title": "Hello World SSO",
+        "description": "SSO Application",
+        "props": [
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "sso_rule_001",
+            "remarks": "rule_set_0"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure all of the services use automated account management",
+            "remarks": "rule_set_0"
+          }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "3fc4613a-dc89-4551-a03c-94d5297869a1",
+            "source": "profiles/ACME_internal_profile/profile.json",
+            "description": "This is a partial implementation of the ACME Internal profile",
+            "implemented-requirements": [
+              {
+                "uuid": "9eac7c04-8ead-4523-af21-cbe2c8cccec8",
+                "control-id": "ac-2.1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "sso_rule_001"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
