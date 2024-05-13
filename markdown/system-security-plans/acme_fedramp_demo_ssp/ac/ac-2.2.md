@@ -50,7 +50,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The information system automatically [removes; disables] temporary and emergency accounts after [organization-defined time period for each type of account].
+The information system automatically [Selection: removes; disables] temporary and emergency accounts after [organization-defined time period for each type of account].
 
 ## Control Objective
 
