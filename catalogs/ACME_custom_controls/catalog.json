@@ -33,6 +33,17 @@
                 "prose": "All services must calculate and report total scope 3 energy consumption."
               }
             ]
+          },
+          {
+            "id": "cc-3",
+            "title": "Test reporting",
+            "parts": [
+              {
+                "id": "cc-3_smt",
+                "name": "statement",
+                "prose": "All services must run my test."
+              }
+            ]
           }
         ]
       },
