@@ -3,7 +3,7 @@
     "uuid": "96a701b8-f7be-44c1-ad21-3ae4d1ae45f9",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2024-05-20T17:44:27.710397+00:00",
+      "last-modified": "2024-05-20T18:14:50.067199+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.4"
     },
@@ -40,6 +40,17 @@
             "parts": [
               {
                 "id": "cc-3_smt",
+                "name": "statement",
+                "prose": "All services must run my test."
+              }
+            ]
+          },
+          {
+            "id": "cc-4",
+            "title": "Test reporting",
+            "parts": [
+              {
+                "id": "cc-4_smt",
                 "name": "statement",
                 "prose": "All services must run my test."
               }
