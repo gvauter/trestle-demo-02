@@ -2,4 +2,4 @@
 
 ## Control Statement
 
-All services should report energy consumed by their service.
+All services should report energy consumed by their service in kilowatts.
