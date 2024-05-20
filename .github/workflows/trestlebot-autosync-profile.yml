@@ -1,0 +1,31 @@
+---
+name: Profile updates
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'profiles/**'
+      - 'markdown/profiles/**'
+
+jobs:
+  auto-update:
+    name: Assemble profile content
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Assemble
+        id: assemble
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@main
+        with:
+          markdown_path: "markdown/profiles"
+          oscal_model: "profile"
+          file_pattern: "*.json,markdown/*"
+          branch: ${{ github.head_ref }}
+          skip_items: "ACME_internal_profile"
+    
+
