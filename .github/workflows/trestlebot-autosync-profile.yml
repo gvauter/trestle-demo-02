@@ -1,5 +1,6 @@
 ---
-name: Profile updates
+name: Trestle-bot autosync profile updates
+
 on:
   pull_request:
     branches:
@@ -9,23 +10,24 @@ on:
       - 'markdown/profiles/**'
 
 jobs:
-  auto-update:
-    name: Assemble profile content
+  autosync:
+    name: Autosync catalog content
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-      - name: Assemble
-        id: assemble
+      - name: Run autosync
+        id: autosync
         uses: RedHatProductSecurity/trestle-bot/actions/autosync@main
         with:
           markdown_path: "markdown/profiles"
           oscal_model: "profile"
           file_pattern: "*.json,markdown/*"
           branch: ${{ github.head_ref }}
-          skip_items: "ACME_internal_profile"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
     
 
