@@ -1,14 +1,14 @@
 ---
 x-trestle-global:
   profile:
-    title: ACME Inc. official controls profile.
+    title: ACME Inc. internal controls profile.
 ---
 
-# cc-1 - \[Custom Controls\] Energy consumption
+# cc-3 - \[Custom Controls\] Test reporting
 
 ## Control Statement
 
-All services should report energy consumed by their service in kilowatts.
+All services must run my test.
 
 # Editable Content
 
