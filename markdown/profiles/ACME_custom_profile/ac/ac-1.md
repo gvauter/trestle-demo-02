@@ -23,7 +23,7 @@ x-trestle-set-params:
   ac-1_prm_3:
     label: organization-defined frequency
     profile-values:
-      - daily
+      - weekly
     values:
   ac-1_prm_4:
     values:
