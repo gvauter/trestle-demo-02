@@ -16,7 +16,7 @@ x-trestle-global:
 
 ## Control Statement
 
-The information system automatically disables inactive accounts after organization-defined time period.
+The information system automatically disables inactive accounts after {{ insert: param, ac-2.3_prm_1 }}.
 
 ## Control Objective
 

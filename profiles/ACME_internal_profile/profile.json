@@ -3,7 +3,7 @@
     "uuid": "1a5af54b-6fd4-4f86-ad9c-74881d4ea436",
     "metadata": {
       "title": "ACME Inc. internal controls profile.",
-      "last-modified": "2023-05-02T18:21:15.451155-04:00",
+      "last-modified": "2024-05-30T21:23:28.513331+00:00",
       "version": "0.0.1",
       "oscal-version": "1.0.4"
     },
@@ -20,6 +20,129 @@
       "as-is": true
     },
     "modify": {
+      "set-parameters": [
+        {
+          "param-id": "ac-1_prm_1",
+          "values": [
+            "executives"
+          ]
+        },
+        {
+          "param-id": "ac-1_prm_2",
+          "values": [
+            "monthly"
+          ]
+        },
+        {
+          "param-id": "ac-1_prm_3",
+          "values": [
+            "weekly"
+          ]
+        },
+        {
+          "param-id": "ac-1_prm_4"
+        },
+        {
+          "param-id": "ac-1_prm_5"
+        },
+        {
+          "param-id": "ac-1_prm_6"
+        },
+        {
+          "param-id": "ac-1_prm_7"
+        },
+        {
+          "param-id": "ac-2_prm_1",
+          "values": [
+            "privileged"
+          ]
+        },
+        {
+          "param-id": "ac-2_prm_10"
+        },
+        {
+          "param-id": "ac-2_prm_2",
+          "values": [
+            "ACME interal method"
+          ]
+        },
+        {
+          "param-id": "ac-2_prm_3",
+          "values": [
+            "standard operations"
+          ]
+        },
+        {
+          "param-id": "ac-2_prm_4",
+          "values": [
+            "daily"
+          ]
+        },
+        {
+          "param-id": "ac-2_prm_5"
+        },
+        {
+          "param-id": "ac-2_prm_6"
+        },
+        {
+          "param-id": "ac-2_prm_7"
+        },
+        {
+          "param-id": "ac-2_prm_8"
+        },
+        {
+          "param-id": "ac-2_prm_9"
+        },
+        {
+          "param-id": "ac-2.1_prm_1"
+        },
+        {
+          "param-id": "ac-4.4_prm_1",
+          "values": [
+            "blocking the flow of the encrypted information",
+            "ACME internal method"
+          ]
+        },
+        {
+          "param-id": "ac-4.4_prm_2",
+          "values": [
+            "ACME internal method"
+          ]
+        },
+        {
+          "param-id": "ac-4.4_prm_3"
+        },
+        {
+          "param-id": "sc-1_prm_1",
+          "values": [
+            "assistants"
+          ]
+        },
+        {
+          "param-id": "sc-1_prm_2",
+          "values": [
+            "hourly"
+          ]
+        },
+        {
+          "param-id": "sc-1_prm_3",
+          "values": [
+            "bi-monthly"
+          ]
+        },
+        {
+          "param-id": "sc-1_prm_4"
+        },
+        {
+          "param-id": "sc-1_prm_5"
+        },
+        {
+          "param-id": "sc-1_prm_6"
+        },
+        {
+          "param-id": "sc-1_prm_7"
+        }
+      ],
       "alters": []
     }
   }

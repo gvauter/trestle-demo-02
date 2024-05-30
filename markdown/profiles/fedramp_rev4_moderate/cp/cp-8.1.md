@@ -80,4 +80,4 @@ Organizations consider the potential mission/business impact in situations where
 <!-- "## Part" parts are new parts added into the top-level statement part with that label. -->
 <!-- Subparts may be added with nested hash levels of the form ### My Subpart Name -->
 <!-- underneath the parent ## Control or ## Part being added -->
-<!-- See https://ibm.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->
+<!-- See https://oscal-compass.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->

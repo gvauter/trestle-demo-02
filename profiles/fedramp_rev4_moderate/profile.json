@@ -4,7 +4,7 @@
     "metadata": {
       "title": "FedRAMP Rev 4 Moderate Baseline",
       "published": "2021-02-05T00:00:00-04:00",
-      "last-modified": "2023-05-02T18:21:17.686262-04:00",
+      "last-modified": "2024-05-30T21:23:31.001068+00:00",
       "version": "fedramp1.1.0-oscal1.0.0",
       "oscal-version": "1.0.4",
       "roles": [
@@ -442,13 +442,28 @@
     "modify": {
       "set-parameters": [
         {
+          "param-id": "ac-1_prm_1"
+        },
+        {
           "param-id": "ac-1_prm_2"
         },
         {
           "param-id": "ac-1_prm_3"
         },
         {
+          "param-id": "ac-2_prm_1"
+        },
+        {
+          "param-id": "ac-2_prm_2"
+        },
+        {
+          "param-id": "ac-2_prm_3"
+        },
+        {
           "param-id": "ac-2_prm_4"
+        },
+        {
+          "param-id": "ac-2.2_prm_1"
         },
         {
           "param-id": "ac-2.2_prm_2"
@@ -457,7 +472,43 @@
           "param-id": "ac-2.3_prm_1"
         },
         {
+          "param-id": "ac-2.4_prm_1"
+        },
+        {
+          "param-id": "ac-2.5_prm_1"
+        },
+        {
+          "param-id": "ac-2.7_prm_1"
+        },
+        {
+          "param-id": "ac-2.9_prm_1"
+        },
+        {
+          "param-id": "ac-2.12_prm_1"
+        },
+        {
+          "param-id": "ac-2.12_prm_2"
+        },
+        {
+          "param-id": "ac-4_prm_1"
+        },
+        {
+          "param-id": "ac-4.21_prm_1"
+        },
+        {
+          "param-id": "ac-4.21_prm_2"
+        },
+        {
+          "param-id": "ac-5_prm_1"
+        },
+        {
+          "param-id": "ac-6.1_prm_1"
+        },
+        {
           "param-id": "ac-6.2_prm_1"
+        },
+        {
+          "param-id": "ac-6.5_prm_1"
         },
         {
           "param-id": "ac-7_prm_1"
@@ -466,7 +517,13 @@
           "param-id": "ac-7_prm_2"
         },
         {
+          "param-id": "ac-7_prm_3"
+        },
+        {
           "param-id": "ac-7_prm_4"
+        },
+        {
+          "param-id": "ac-7_prm_5"
         },
         {
           "param-id": "ac-8_prm_1"
@@ -475,16 +532,52 @@
           "param-id": "ac-8_prm_2"
         },
         {
+          "param-id": "ac-10_prm_1"
+        },
+        {
           "param-id": "ac-10_prm_2"
         },
         {
           "param-id": "ac-11_prm_1"
         },
         {
+          "param-id": "ac-12_prm_1"
+        },
+        {
+          "param-id": "ac-14_prm_1"
+        },
+        {
+          "param-id": "ac-17.3_prm_1"
+        },
+        {
+          "param-id": "ac-17.4_prm_1"
+        },
+        {
           "param-id": "ac-17.9_prm_1"
         },
         {
+          "param-id": "ac-18.1_prm_1"
+        },
+        {
+          "param-id": "ac-19.5_prm_1"
+        },
+        {
+          "param-id": "ac-19.5_prm_2"
+        },
+        {
+          "param-id": "ac-20.2_prm_1"
+        },
+        {
+          "param-id": "ac-21_prm_1"
+        },
+        {
+          "param-id": "ac-21_prm_2"
+        },
+        {
           "param-id": "ac-22_prm_1"
+        },
+        {
+          "param-id": "at-1_prm_1"
         },
         {
           "param-id": "at-1_prm_2"
@@ -500,6 +593,9 @@
         },
         {
           "param-id": "at-4_prm_1"
+        },
+        {
+          "param-id": "au-1_prm_1"
         },
         {
           "param-id": "au-1_prm_2"
@@ -520,10 +616,28 @@
           "param-id": "au-3.1_prm_1"
         },
         {
+          "param-id": "au-4_prm_1"
+        },
+        {
+          "param-id": "au-5_prm_1"
+        },
+        {
           "param-id": "au-5_prm_2"
         },
         {
           "param-id": "au-6_prm_1"
+        },
+        {
+          "param-id": "au-6_prm_2"
+        },
+        {
+          "param-id": "au-6_prm_3"
+        },
+        {
+          "param-id": "au-7.1_prm_1"
+        },
+        {
+          "param-id": "au-8_prm_1"
         },
         {
           "param-id": "au-8.1_prm_1"
@@ -532,13 +646,25 @@
           "param-id": "au-8.1_prm_2"
         },
         {
+          "param-id": "au-8.1_prm_3"
+        },
+        {
           "param-id": "au-9.2_prm_1"
+        },
+        {
+          "param-id": "au-9.4_prm_1"
         },
         {
           "param-id": "au-11_prm_1"
         },
         {
           "param-id": "au-12_prm_1"
+        },
+        {
+          "param-id": "au-12_prm_2"
+        },
+        {
+          "param-id": "ca-1_prm_1"
         },
         {
           "param-id": "ca-1_prm_2"
@@ -553,7 +679,19 @@
           "param-id": "ca-2_prm_2"
         },
         {
+          "param-id": "ca-2.1_prm_1"
+        },
+        {
           "param-id": "ca-2.2_prm_1"
+        },
+        {
+          "param-id": "ca-2.2_prm_2"
+        },
+        {
+          "param-id": "ca-2.2_prm_3"
+        },
+        {
+          "param-id": "ca-2.2_prm_4"
         },
         {
           "param-id": "ca-2.3_prm_1"
@@ -568,7 +706,16 @@
           "param-id": "ca-3_prm_1"
         },
         {
+          "param-id": "ca-3.3_prm_1"
+        },
+        {
           "param-id": "ca-3.3_prm_2"
+        },
+        {
+          "param-id": "ca-3.5_prm_1"
+        },
+        {
+          "param-id": "ca-3.5_prm_2"
         },
         {
           "param-id": "ca-5_prm_1"
@@ -577,13 +724,34 @@
           "param-id": "ca-6_prm_1"
         },
         {
+          "param-id": "ca-7_prm_1"
+        },
+        {
+          "param-id": "ca-7_prm_2"
+        },
+        {
+          "param-id": "ca-7_prm_3"
+        },
+        {
           "param-id": "ca-7_prm_4"
         },
         {
           "param-id": "ca-7_prm_5"
         },
         {
+          "param-id": "ca-7.1_prm_1"
+        },
+        {
           "param-id": "ca-8_prm_1"
+        },
+        {
+          "param-id": "ca-8_prm_2"
+        },
+        {
+          "param-id": "ca-9_prm_1"
+        },
+        {
+          "param-id": "cm-1_prm_1"
         },
         {
           "param-id": "cm-1_prm_2"
@@ -598,10 +766,49 @@
           "param-id": "cm-2.1_prm_2"
         },
         {
+          "param-id": "cm-2.3_prm_1"
+        },
+        {
+          "param-id": "cm-2.7_prm_1"
+        },
+        {
+          "param-id": "cm-2.7_prm_2"
+        },
+        {
+          "param-id": "cm-2.7_prm_3"
+        },
+        {
+          "param-id": "cm-3_prm_1"
+        },
+        {
+          "param-id": "cm-3_prm_2"
+        },
+        {
+          "param-id": "cm-3_prm_3"
+        },
+        {
+          "param-id": "cm-3_prm_4"
+        },
+        {
+          "param-id": "cm-3_prm_5"
+        },
+        {
+          "param-id": "cm-5.3_prm_1"
+        },
+        {
           "param-id": "cm-5.5_prm_1"
         },
         {
           "param-id": "cm-6_prm_1"
+        },
+        {
+          "param-id": "cm-6_prm_2"
+        },
+        {
+          "param-id": "cm-6_prm_3"
+        },
+        {
+          "param-id": "cm-6.1_prm_1"
         },
         {
           "param-id": "cm-7_prm_1"
@@ -610,7 +817,22 @@
           "param-id": "cm-7.1_prm_1"
         },
         {
+          "param-id": "cm-7.1_prm_2"
+        },
+        {
+          "param-id": "cm-7.2_prm_1"
+        },
+        {
+          "param-id": "cm-7.2_prm_2"
+        },
+        {
+          "param-id": "cm-7.5_prm_1"
+        },
+        {
           "param-id": "cm-7.5_prm_2"
+        },
+        {
+          "param-id": "cm-8_prm_1"
         },
         {
           "param-id": "cm-8_prm_2"
@@ -619,7 +841,25 @@
           "param-id": "cm-8.3_prm_1"
         },
         {
+          "param-id": "cm-8.3_prm_2"
+        },
+        {
+          "param-id": "cm-8.3_prm_3"
+        },
+        {
+          "param-id": "cm-10.1_prm_1"
+        },
+        {
+          "param-id": "cm-11_prm_1"
+        },
+        {
+          "param-id": "cm-11_prm_2"
+        },
+        {
           "param-id": "cm-11_prm_3"
+        },
+        {
+          "param-id": "cp-1_prm_1"
         },
         {
           "param-id": "cp-1_prm_2"
@@ -628,7 +868,19 @@
           "param-id": "cp-1_prm_3"
         },
         {
+          "param-id": "cp-2_prm_1"
+        },
+        {
+          "param-id": "cp-2_prm_2"
+        },
+        {
           "param-id": "cp-2_prm_3"
+        },
+        {
+          "param-id": "cp-2_prm_4"
+        },
+        {
+          "param-id": "cp-2.3_prm_1"
         },
         {
           "param-id": "cp-3_prm_1"
@@ -643,6 +895,18 @@
           "param-id": "cp-4_prm_2"
         },
         {
+          "param-id": "cp-7_prm_1"
+        },
+        {
+          "param-id": "cp-7_prm_2"
+        },
+        {
+          "param-id": "cp-8_prm_1"
+        },
+        {
+          "param-id": "cp-8_prm_2"
+        },
+        {
           "param-id": "cp-9_prm_1"
         },
         {
@@ -655,6 +919,12 @@
           "param-id": "cp-9.1_prm_1"
         },
         {
+          "param-id": "cp-9.3_prm_1"
+        },
+        {
+          "param-id": "ia-1_prm_1"
+        },
+        {
           "param-id": "ia-1_prm_2"
         },
         {
@@ -662,6 +932,15 @@
         },
         {
           "param-id": "ia-2.11_prm_1"
+        },
+        {
+          "param-id": "ia-3_prm_1"
+        },
+        {
+          "param-id": "ia-3_prm_2"
+        },
+        {
+          "param-id": "ia-4_prm_1"
         },
         {
           "param-id": "ia-4_prm_2"
@@ -673,7 +952,16 @@
           "param-id": "ia-4.4_prm_1"
         },
         {
+          "param-id": "ia-5_prm_1"
+        },
+        {
+          "param-id": "ia-5.1_prm_1"
+        },
+        {
           "param-id": "ia-5.1_prm_2"
+        },
+        {
+          "param-id": "ia-5.1_prm_3"
         },
         {
           "param-id": "ia-5.1_prm_4"
@@ -685,10 +973,31 @@
           "param-id": "ia-5.3_prm_2"
         },
         {
+          "param-id": "ia-5.3_prm_3"
+        },
+        {
+          "param-id": "ia-5.3_prm_4"
+        },
+        {
+          "param-id": "ia-5.4_prm_1"
+        },
+        {
+          "param-id": "ia-5.11_prm_1"
+        },
+        {
+          "param-id": "ia-8.3_prm_1"
+        },
+        {
+          "param-id": "ir-1_prm_1"
+        },
+        {
           "param-id": "ir-1_prm_2"
         },
         {
           "param-id": "ir-1_prm_3"
+        },
+        {
+          "param-id": "ir-2_prm_1"
         },
         {
           "param-id": "ir-2_prm_2"
@@ -703,6 +1012,12 @@
           "param-id": "ir-6_prm_1"
         },
         {
+          "param-id": "ir-6_prm_2"
+        },
+        {
+          "param-id": "ir-8_prm_1"
+        },
+        {
           "param-id": "ir-8_prm_2"
         },
         {
@@ -712,13 +1027,49 @@
           "param-id": "ir-8_prm_4"
         },
         {
+          "param-id": "ir-9_prm_1"
+        },
+        {
+          "param-id": "ir-9_prm_2"
+        },
+        {
+          "param-id": "ir-9.1_prm_1"
+        },
+        {
+          "param-id": "ir-9.2_prm_1"
+        },
+        {
+          "param-id": "ir-9.3_prm_1"
+        },
+        {
+          "param-id": "ir-9.4_prm_1"
+        },
+        {
+          "param-id": "ma-1_prm_1"
+        },
+        {
           "param-id": "ma-1_prm_2"
         },
         {
           "param-id": "ma-1_prm_3"
         },
         {
+          "param-id": "ma-2_prm_1"
+        },
+        {
+          "param-id": "ma-2_prm_2"
+        },
+        {
           "param-id": "ma-3.3_prm_1"
+        },
+        {
+          "param-id": "ma-6_prm_1"
+        },
+        {
+          "param-id": "ma-6_prm_2"
+        },
+        {
+          "param-id": "mp-1_prm_1"
         },
         {
           "param-id": "mp-1_prm_2"
@@ -727,7 +1078,16 @@
           "param-id": "mp-1_prm_3"
         },
         {
+          "param-id": "mp-2_prm_1"
+        },
+        {
+          "param-id": "mp-2_prm_2"
+        },
+        {
           "param-id": "mp-3_prm_1"
+        },
+        {
+          "param-id": "mp-3_prm_2"
         },
         {
           "param-id": "mp-4_prm_1"
@@ -742,7 +1102,28 @@
           "param-id": "mp-5_prm_2"
         },
         {
+          "param-id": "mp-6_prm_1"
+        },
+        {
+          "param-id": "mp-6_prm_2"
+        },
+        {
           "param-id": "mp-6.2_prm_1"
+        },
+        {
+          "param-id": "mp-7_prm_1"
+        },
+        {
+          "param-id": "mp-7_prm_2"
+        },
+        {
+          "param-id": "mp-7_prm_3"
+        },
+        {
+          "param-id": "mp-7_prm_4"
+        },
+        {
+          "param-id": "pe-1_prm_1"
         },
         {
           "param-id": "pe-1_prm_2"
@@ -754,13 +1135,25 @@
           "param-id": "pe-2_prm_1"
         },
         {
+          "param-id": "pe-3_prm_1"
+        },
+        {
           "param-id": "pe-3_prm_2"
         },
         {
           "param-id": "pe-3_prm_3"
         },
         {
+          "param-id": "pe-3_prm_4"
+        },
+        {
+          "param-id": "pe-3_prm_5"
+        },
+        {
           "param-id": "pe-3_prm_6"
+        },
+        {
+          "param-id": "pe-3_prm_7"
         },
         {
           "param-id": "pe-3_prm_8"
@@ -769,13 +1162,34 @@
           "param-id": "pe-3_prm_9"
         },
         {
+          "param-id": "pe-4_prm_1"
+        },
+        {
+          "param-id": "pe-4_prm_2"
+        },
+        {
           "param-id": "pe-6_prm_1"
+        },
+        {
+          "param-id": "pe-6_prm_2"
         },
         {
           "param-id": "pe-8_prm_1"
         },
         {
           "param-id": "pe-8_prm_2"
+        },
+        {
+          "param-id": "pe-10_prm_1"
+        },
+        {
+          "param-id": "pe-11_prm_1"
+        },
+        {
+          "param-id": "pe-13.2_prm_1"
+        },
+        {
+          "param-id": "pe-13.2_prm_2"
         },
         {
           "param-id": "pe-14_prm_1"
@@ -787,19 +1201,34 @@
           "param-id": "pe-16_prm_1"
         },
         {
+          "param-id": "pe-17_prm_1"
+        },
+        {
+          "param-id": "pl-1_prm_1"
+        },
+        {
           "param-id": "pl-1_prm_2"
         },
         {
           "param-id": "pl-1_prm_3"
         },
         {
+          "param-id": "pl-2_prm_1"
+        },
+        {
           "param-id": "pl-2_prm_2"
+        },
+        {
+          "param-id": "pl-2.3_prm_1"
         },
         {
           "param-id": "pl-4_prm_1"
         },
         {
           "param-id": "pl-8_prm_1"
+        },
+        {
+          "param-id": "ps-1_prm_1"
         },
         {
           "param-id": "ps-1_prm_2"
@@ -820,6 +1249,24 @@
           "param-id": "ps-4_prm_1"
         },
         {
+          "param-id": "ps-4_prm_2"
+        },
+        {
+          "param-id": "ps-4_prm_3"
+        },
+        {
+          "param-id": "ps-4_prm_4"
+        },
+        {
+          "param-id": "ps-5_prm_1"
+        },
+        {
+          "param-id": "ps-5_prm_2"
+        },
+        {
+          "param-id": "ps-5_prm_3"
+        },
+        {
           "param-id": "ps-5_prm_4"
         },
         {
@@ -829,7 +1276,19 @@
           "param-id": "ps-6_prm_2"
         },
         {
+          "param-id": "ps-7_prm_1"
+        },
+        {
           "param-id": "ps-7_prm_2"
+        },
+        {
+          "param-id": "ps-8_prm_1"
+        },
+        {
+          "param-id": "ps-8_prm_2"
+        },
+        {
+          "param-id": "ra-1_prm_1"
         },
         {
           "param-id": "ra-1_prm_2"
@@ -838,10 +1297,16 @@
           "param-id": "ra-1_prm_3"
         },
         {
+          "param-id": "ra-3_prm_1"
+        },
+        {
           "param-id": "ra-3_prm_2"
         },
         {
           "param-id": "ra-3_prm_3"
+        },
+        {
+          "param-id": "ra-3_prm_4"
         },
         {
           "param-id": "ra-3_prm_5"
@@ -853,7 +1318,13 @@
           "param-id": "ra-5_prm_2"
         },
         {
+          "param-id": "ra-5_prm_3"
+        },
+        {
           "param-id": "ra-5.2_prm_1"
+        },
+        {
+          "param-id": "ra-5.2_prm_2"
         },
         {
           "param-id": "ra-5.5_prm_1"
@@ -862,16 +1333,34 @@
           "param-id": "ra-5.5_prm_2"
         },
         {
+          "param-id": "sa-1_prm_1"
+        },
+        {
           "param-id": "sa-1_prm_2"
         },
         {
           "param-id": "sa-1_prm_3"
         },
         {
+          "param-id": "sa-3_prm_1"
+        },
+        {
           "param-id": "sa-4.2_prm_1"
         },
         {
+          "param-id": "sa-4.2_prm_2"
+        },
+        {
+          "param-id": "sa-4.2_prm_3"
+        },
+        {
           "param-id": "sa-4.8_prm_1"
+        },
+        {
+          "param-id": "sa-5_prm_1"
+        },
+        {
+          "param-id": "sa-5_prm_2"
         },
         {
           "param-id": "sa-9_prm_1"
@@ -880,7 +1369,13 @@
           "param-id": "sa-9_prm_2"
         },
         {
+          "param-id": "sa-9.1_prm_1"
+        },
+        {
           "param-id": "sa-9.2_prm_1"
+        },
+        {
+          "param-id": "sa-9.4_prm_1"
         },
         {
           "param-id": "sa-9.4_prm_2"
@@ -889,7 +1384,28 @@
           "param-id": "sa-9.5_prm_1"
         },
         {
+          "param-id": "sa-9.5_prm_2"
+        },
+        {
+          "param-id": "sa-9.5_prm_3"
+        },
+        {
           "param-id": "sa-10_prm_1"
+        },
+        {
+          "param-id": "sa-10_prm_2"
+        },
+        {
+          "param-id": "sa-10_prm_3"
+        },
+        {
+          "param-id": "sa-11_prm_1"
+        },
+        {
+          "param-id": "sa-11_prm_2"
+        },
+        {
+          "param-id": "sc-1_prm_1"
         },
         {
           "param-id": "sc-1_prm_2"
@@ -898,7 +1414,40 @@
           "param-id": "sc-1_prm_3"
         },
         {
+          "param-id": "sc-5_prm_1"
+        },
+        {
+          "param-id": "sc-5_prm_2"
+        },
+        {
+          "param-id": "sc-6_prm_1"
+        },
+        {
+          "param-id": "sc-6_prm_2"
+        },
+        {
+          "param-id": "sc-6_prm_3"
+        },
+        {
+          "param-id": "sc-7_prm_1"
+        },
+        {
           "param-id": "sc-7.4_prm_1"
+        },
+        {
+          "param-id": "sc-7.8_prm_1"
+        },
+        {
+          "param-id": "sc-7.8_prm_2"
+        },
+        {
+          "param-id": "sc-7.12_prm_1"
+        },
+        {
+          "param-id": "sc-7.12_prm_2"
+        },
+        {
+          "param-id": "sc-7.13_prm_1"
         },
         {
           "param-id": "sc-8_prm_1"
@@ -913,7 +1462,13 @@
           "param-id": "sc-10_prm_1"
         },
         {
+          "param-id": "sc-12_prm_1"
+        },
+        {
           "param-id": "sc-12.2_prm_1"
+        },
+        {
+          "param-id": "sc-12.3_prm_1"
         },
         {
           "param-id": "sc-13_prm_1"
@@ -922,7 +1477,22 @@
           "param-id": "sc-15_prm_1"
         },
         {
+          "param-id": "sc-17_prm_1"
+        },
+        {
           "param-id": "sc-28_prm_1"
+        },
+        {
+          "param-id": "sc-28_prm_2"
+        },
+        {
+          "param-id": "sc-28.1_prm_1"
+        },
+        {
+          "param-id": "sc-28.1_prm_2"
+        },
+        {
+          "param-id": "si-1_prm_1"
         },
         {
           "param-id": "si-1_prm_2"
@@ -937,6 +1507,9 @@
           "param-id": "si-2.2_prm_1"
         },
         {
+          "param-id": "si-2.3_prm_1"
+        },
+        {
           "param-id": "si-3_prm_1"
         },
         {
@@ -946,13 +1519,61 @@
           "param-id": "si-3_prm_3"
         },
         {
+          "param-id": "si-3_prm_4"
+        },
+        {
+          "param-id": "si-4_prm_1"
+        },
+        {
+          "param-id": "si-4_prm_2"
+        },
+        {
+          "param-id": "si-4_prm_3"
+        },
+        {
+          "param-id": "si-4_prm_4"
+        },
+        {
+          "param-id": "si-4_prm_5"
+        },
+        {
+          "param-id": "si-4_prm_6"
+        },
+        {
           "param-id": "si-4.4_prm_1"
+        },
+        {
+          "param-id": "si-4.5_prm_1"
+        },
+        {
+          "param-id": "si-4.5_prm_2"
+        },
+        {
+          "param-id": "si-4.23_prm_1"
+        },
+        {
+          "param-id": "si-4.23_prm_2"
         },
         {
           "param-id": "si-5_prm_1"
         },
         {
           "param-id": "si-5_prm_2"
+        },
+        {
+          "param-id": "si-5_prm_3"
+        },
+        {
+          "param-id": "si-5_prm_4"
+        },
+        {
+          "param-id": "si-5_prm_5"
+        },
+        {
+          "param-id": "si-6_prm_1"
+        },
+        {
+          "param-id": "si-6_prm_2"
         },
         {
           "param-id": "si-6_prm_3"
@@ -964,13 +1585,37 @@
           "param-id": "si-6_prm_5"
         },
         {
+          "param-id": "si-6_prm_6"
+        },
+        {
           "param-id": "si-6_prm_7"
+        },
+        {
+          "param-id": "si-7_prm_1"
+        },
+        {
+          "param-id": "si-7.1_prm_1"
+        },
+        {
+          "param-id": "si-7.1_prm_2"
         },
         {
           "param-id": "si-7.1_prm_3"
         },
         {
           "param-id": "si-7.1_prm_4"
+        },
+        {
+          "param-id": "si-7.7_prm_1"
+        },
+        {
+          "param-id": "si-10_prm_1"
+        },
+        {
+          "param-id": "si-11_prm_1"
+        },
+        {
+          "param-id": "si-16_prm_1"
         }
       ],
       "alters": [

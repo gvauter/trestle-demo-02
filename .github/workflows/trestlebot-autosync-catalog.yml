@@ -20,8 +20,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-      - name: Assemble
-        id: assemble
+      - name: Run autosync
+        id: autosync
         uses: RedHatProductSecurity/trestle-bot/actions/autosync@main
         with:
           markdown_path: "markdown/catalogs"
