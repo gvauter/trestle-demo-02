@@ -1,14 +1,30 @@
 ---
 x-trestle-set-params:
-  # You may set values for parameters in the assembled Profile by adding
+    # This section contains the parameters that are part of this control.
+  # Each parameter has properties. Only the profile-values and display-name properties are editable.
+  # The other properties are informational.
   #
-  # profile-values:
-  #   - value 1
-  #   - value 2
+  # The values property for a parameter represents values inherited from the OSCAL catalog.
+  # To override the catalog settings, use bullets under profile-values as shown below:
   #
-  # below a section of values:
-  # The values list refers to the values in the catalog, and the profile-values represent values
-  # in SetParameters of the Profile.
+  #   profile-values:
+  #     - value 1
+  #     - value 2
+  #
+  # If the "- <REPLACE_ME>" placeholder appears under profile-values, it is the same as if
+  # the profile-values property were left empty.
+  #
+  # Some parameters may show an aggregates property which lists other parameters. This means
+  # the parameter value is made up of the values from the other parameters. For parameters
+  # that aggregate, profile-values is not applicable.
+  #
+  # Property param-value-origin is meant for putting the origin from where that parameter comes from.
+  # In order to be changed in the current profile, profile-param-value-origin property will be displayed with
+  # the placeholder "<REPLACE_ME>" for you to be replaced. If a parameter already has a param-value-origin
+  # coming from an inherited profile, do no change this value, instead use profile-param-value-origin as follows:
+  #
+  #    param-value-origin: DO NOT REPLACE - this is the original value
+  #    profile-param-value-origin: <REPLACE_ME> - replace the new value required HERE
   #
   ac-2.1_prm_1:
     values:
@@ -26,7 +42,7 @@ Support the management of system accounts using {{ insert: param, ac-2.1_prm_1 }
 
 ## Control guidance
 
-Automated system/service account management includes using automated mechanisms to create, enable, modify, disable, and remove accounts; notify account managers when an account is created, enabled, modified, disabled, or removed, or when users are terminated or transferred; monitor system account usage; and report atypical system account usage. Automated mechanisms can include internal system functions and email, telephonic, and text messaging notifications.
+Automated system account management includes using automated mechanisms to create, enable, modify, disable, and remove accounts; notify account managers when an account is created, enabled, modified, disabled, or removed, or when users are terminated or transferred; monitor system account usage; and report atypical system account usage. Automated mechanisms can include internal system functions and email, telephonic, and text messaging notifications.
 
 # Editable Content
 
@@ -43,4 +59,4 @@ Automated system/service account management includes using automated mechanisms 
 <!-- "## Part" parts are new parts added into the top-level statement part with that label. -->
 <!-- Subparts may be added with nested hash levels of the form ### My Subpart Name -->
 <!-- underneath the parent ## Control or ## Part being added -->
-<!-- See https://ibm.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->
+<!-- See https://oscal-compass.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->
