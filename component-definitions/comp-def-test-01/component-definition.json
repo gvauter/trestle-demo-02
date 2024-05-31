@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "7383375d-6e70-452c-ad0f-fb685010ddbf",
+    "uuid": "508af266-d696-4462-9f23-bd0ae4ed8ccc",
     "metadata": {
       "title": "Component definition for comp-def-test-01",
-      "last-modified": "2024-05-14T16:25:06+00:00",
+      "last-modified": "2024-05-31T10:55:55+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "db15ae81-62d4-4aeb-b378-a8c888b3bbed",
+        "uuid": "3590ca17-b9e4-4147-ab17-908db9d6bb90",
         "type": "service",
         "title": "comp-def-test-01-component-01",
         "description": "Test 01",
@@ -17,109 +17,109 @@
           {
             "name": "Rule_Id",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "rule-ac-2",
-            "remarks": "rule_set_00"
-          },
-          {
-            "name": "Rule_Description",
-            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "Rule for ac-2",
-            "remarks": "rule_set_00"
-          },
-          {
-            "name": "Rule_Id",
-            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "rule-pr-1",
-            "remarks": "rule_set_01"
-          },
-          {
-            "name": "Rule_Description",
-            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "Rule for pr-1",
-            "remarks": "rule_set_01"
-          },
-          {
-            "name": "Rule_Id",
-            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-cc-3",
-            "remarks": "rule_set_02"
+            "remarks": "rule_set_00"
           },
           {
             "name": "Rule_Description",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for cc-3",
-            "remarks": "rule_set_02"
+            "remarks": "rule_set_00"
           },
           {
             "name": "Rule_Id",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ac-4.4",
-            "remarks": "rule_set_03"
+            "remarks": "rule_set_01"
           },
           {
             "name": "Rule_Description",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ac-4.4",
-            "remarks": "rule_set_03"
+            "remarks": "rule_set_01"
           },
           {
             "name": "Rule_Id",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "rule-ac-1",
-            "remarks": "rule_set_04"
+            "value": "rule-ac-2",
+            "remarks": "rule_set_02"
           },
           {
             "name": "Rule_Description",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "Rule for ac-1",
-            "remarks": "rule_set_04"
+            "value": "Rule for ac-2",
+            "remarks": "rule_set_02"
           },
           {
             "name": "Rule_Id",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-cc-2",
-            "remarks": "rule_set_05"
+            "remarks": "rule_set_03"
           },
           {
             "name": "Rule_Description",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for cc-2",
-            "remarks": "rule_set_05"
-          },
-          {
-            "name": "Rule_Id",
-            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "rule-sc-2",
-            "remarks": "rule_set_06"
-          },
-          {
-            "name": "Rule_Description",
-            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "Rule for sc-2",
-            "remarks": "rule_set_06"
+            "remarks": "rule_set_03"
           },
           {
             "name": "Rule_Id",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-cc-1",
-            "remarks": "rule_set_07"
+            "remarks": "rule_set_04"
           },
           {
             "name": "Rule_Description",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for cc-1",
+            "remarks": "rule_set_04"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "rule-ac-2.1",
+            "remarks": "rule_set_05"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "Rule for ac-2.1",
+            "remarks": "rule_set_05"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "rule-ac-1",
+            "remarks": "rule_set_06"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "Rule for ac-1",
+            "remarks": "rule_set_06"
+          },
+          {
+            "name": "Rule_Id",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "rule-pr-1",
+            "remarks": "rule_set_07"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "Rule for pr-1",
             "remarks": "rule_set_07"
           },
           {
             "name": "Rule_Id",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "rule-pr-2",
+            "value": "rule-sc-2",
             "remarks": "rule_set_08"
           },
           {
             "name": "Rule_Description",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "Rule for pr-2",
+            "value": "Rule for sc-2",
             "remarks": "rule_set_08"
           },
           {
@@ -137,48 +137,24 @@
           {
             "name": "Rule_Id",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "rule-ac-2.1",
+            "value": "rule-pr-2",
             "remarks": "rule_set_10"
           },
           {
             "name": "Rule_Description",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "Rule for ac-2.1",
+            "value": "Rule for pr-2",
             "remarks": "rule_set_10"
           }
         ],
         "control-implementations": [
           {
-            "uuid": "6b2e598c-c425-4b81-9889-2df1d7f670dd",
+            "uuid": "f18e19ea-1fa0-40a8-ace4-c07b80496326",
             "source": "trestle://profiles/ACME_custom_profile/profile.json",
             "description": "ACME Inc. official controls profile.",
             "implemented-requirements": [
               {
-                "uuid": "85b14de2-ae4c-4fd2-8a2a-a70104ecd035",
-                "control-id": "ac-2",
-                "description": "",
-                "props": [
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-                    "value": "rule-ac-2"
-                  }
-                ]
-              },
-              {
-                "uuid": "31119be0-e2d6-4122-b0f1-afc35053336f",
-                "control-id": "pr-1",
-                "description": "",
-                "props": [
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-                    "value": "rule-pr-1"
-                  }
-                ]
-              },
-              {
-                "uuid": "6fc6cc65-e950-4c4e-b88e-06378d001407",
+                "uuid": "7443705e-2bc0-472f-ac8e-15a85ad92ba1",
                 "control-id": "cc-3",
                 "description": "",
                 "props": [
@@ -190,7 +166,7 @@
                 ]
               },
               {
-                "uuid": "2077e757-9018-4bf0-b92e-4d1bda67db64",
+                "uuid": "cde442ee-cd12-4f98-ab1a-e065a77fd510",
                 "control-id": "ac-4.4",
                 "description": "",
                 "props": [
@@ -202,19 +178,19 @@
                 ]
               },
               {
-                "uuid": "dc5a6675-d85c-4f6d-9c38-e8621c624ba7",
-                "control-id": "ac-1",
+                "uuid": "788dd1ae-b0ee-40fe-8abb-39806ea2c4fb",
+                "control-id": "ac-2",
                 "description": "",
                 "props": [
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-                    "value": "rule-ac-1"
+                    "value": "rule-ac-2"
                   }
                 ]
               },
               {
-                "uuid": "3b645c0c-0d62-44d2-b697-e62c2cf795fa",
+                "uuid": "2c63c156-a297-40aa-b935-398a9ad328e8",
                 "control-id": "cc-2",
                 "description": "",
                 "props": [
@@ -226,19 +202,7 @@
                 ]
               },
               {
-                "uuid": "82747686-1464-4c26-9cbc-1ad61d5c286d",
-                "control-id": "sc-2",
-                "description": "",
-                "props": [
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-                    "value": "rule-sc-2"
-                  }
-                ]
-              },
-              {
-                "uuid": "3274fa14-1715-40ae-98bc-f96978a263eb",
+                "uuid": "f1df8150-09e3-4a1e-ab18-673137a67446",
                 "control-id": "cc-1",
                 "description": "",
                 "props": [
@@ -250,19 +214,43 @@
                 ]
               },
               {
-                "uuid": "8943466d-7f4d-48b6-bb1d-fc690c245e94",
-                "control-id": "pr-2",
+                "uuid": "25b6df5b-0846-4bd5-9066-4321cb890c8f",
+                "control-id": "ac-2.1",
                 "description": "",
                 "props": [
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-                    "value": "rule-pr-2"
+                    "value": "rule-ac-2.1"
                   }
                 ]
               },
               {
-                "uuid": "aceea0cb-14a3-4fdf-828b-3ed5ba382f56",
+                "uuid": "ee104bdf-022c-4922-a2fb-ed6b1e65311a",
+                "control-id": "pr-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+                    "value": "rule-pr-1"
+                  }
+                ]
+              },
+              {
+                "uuid": "0b34cf3f-63fe-4ccc-b208-db513207d2b8",
+                "control-id": "sc-2",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+                    "value": "rule-sc-2"
+                  }
+                ]
+              },
+              {
+                "uuid": "0d66041c-7762-4f6a-8734-f33a6174bf7f",
                 "control-id": "sc-1",
                 "description": "",
                 "props": [
@@ -274,14 +262,33 @@
                 ]
               },
               {
-                "uuid": "b54bb64a-5d6c-498f-acb7-8511e0e59994",
-                "control-id": "ac-2.1",
+                "uuid": "bdf29ada-a374-4be0-8c61-d44a7958ba4e",
+                "control-id": "pr-2",
                 "description": "",
                 "props": [
                   {
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-                    "value": "rule-ac-2.1"
+                    "value": "rule-pr-2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "uuid": "238548cf-2b96-477e-80fb-69c3e16de460",
+            "source": "trestle://profiles/ACME_custom_profile/profile.json",
+            "description": "ACME Inc official controls profile",
+            "implemented-requirements": [
+              {
+                "uuid": "f5c50c4c-7718-481f-bd80-503e8fc5dd9b",
+                "control-id": "ac-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+                    "value": "rule-ac-1"
                   }
                 ]
               }
